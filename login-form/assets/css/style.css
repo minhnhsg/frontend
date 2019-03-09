@@ -1,0 +1,178 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+.clear {
+	clear: both;
+}
+
+
+
+/* Base config */
+@font-face {
+	font-family: 'Helvetica Neue Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Helvetica Neue Light'), url('../../assets/font/HelveticaNeueLight.woff') format('woff');
+}
+
+body {
+	font-size: 62.5%;   /*62.5 of 16px = 10px*/
+	background: #341236 url("../../assets/img/background.png") no-repeat center top;
+	background-size: cover;
+	font-family: Helvetica Neue Light;
+	letter-spacing: 1.1px;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.9em;
+}
+
+
+
+/*MOBILE*/
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.login-from {
+	width: 400px;
+	height: 300px;
+
+	/*center-middle DIV*/
+	position:absolute;
+	top:0; left:0; bottom:0; right:0;
+	margin: auto;
+}
+
+.login-from .form-header {
+	height: 6.3em;
+	line-height: 6.3em;
+	background-color: #6e4b71;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+}
+
+.login-from .form-header h1 {
+	float: left;
+	color: white;
+    text-shadow: 1px 1px 2px #2c3e50;
+	font-size: 1.4em;
+	padding-left: 22px;
+}
+
+.login-from button.close {
+	float: right;
+	border: 0;
+	outline: 0;
+	background: none;
+	color: white;
+	padding: 22px;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px #2c3e50;
+}
+
+.form-body {
+	height: 237px;
+	background-color: #f2f2f2;
+}
+
+.input-row {
+	padding: 23px 23px 0 23px;
+}
+
+.form-body input {
+	height: 48px;
+	width: calc(100% - 20px);
+	/*margin: 23px 0 0 23px;*/
+	padding-left: 20px;
+	background-color: #f0eef0;
+	border: solid 1px #dfdfdf;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+
+	color: #999999;
+	font-size: 1.2em;
+	/*text-shadow: 1px 1px 1px #999999;*/
+	font-weight: bold;
+
+	font-family: Helvetica Neue Light;
+	letter-spacing: 1.5px;
+}
+
+.form-body input:focus {
+	/*outline: solid 1px #4e2b51;*/
+	/*outline: none;*/
+}
+
+.input-username {
+	background: url("../../assets/img/user.png") no-repeat;
+	background-position: center right 17px;
+}
+
+.input-password {
+	background: url("../../assets/img/locker.png") no-repeat;
+	background-position: center right 17px;
+}
+
+button.button_sign_in {
+	float: left;
+	background-color: #744e77;
+	/*padding: 15px auto;*/
+	height: 40px;
+	width: 100px;
+	color: white;
+	text-shadow: 1px 1px 2px #2c3e50;
+	border: none;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+
+	font-family: Helvetica Neue Light;
+	/*letter-spacing: 1.5px;*/
+	text-shadow: 1px 1px 2px #2c3e50;
+}
+
+button.button_sign_in:hover {
+	background-color: #a64bad;
+	cursor: pointer;
+}
+
+button.button_sign_in:focus {
+	outline: none;
+}
+
+a.txt_lost_password {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 30px;
+	font-size: 1.4em;
+	color: #999999;
+	/*text-shadow: 1px 1px 2px #2c3e50;*/
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+a.txt_lost_password:hover {
+	text-decoration: underline;
+}
