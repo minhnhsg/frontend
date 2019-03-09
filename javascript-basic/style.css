@@ -1,0 +1,211 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+.clear {
+	clear: both;
+}
+
+
+
+/* Base config */
+body {
+	font-size: 62.5%;   /*62.5 of 16px = 10px*/
+	background-color: #dfe6e9;
+	font-family: Segoe UI;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.9em;
+}
+
+
+
+
+
+/*MOBILE*/
+.container {
+	/*max-width: 1080px;*/
+	width: 600px;
+	margin: 0px auto;
+}
+
+.header {
+	background-color: #34495e;
+	color: white;
+}
+
+.header h1 {
+	font-size: 2em;
+	padding: 10px; 
+}
+
+.exercise {
+	background-color: #ecf0f1;
+	margin-bottom: 30px
+	/*color: #353b48;*/
+	/*padding: 10px;*/
+}
+
+.exercise h1 {
+	/*font-size: 1.7em;
+	line-height: 1.7em;
+	margin-bottom: 10px;*/
+
+	background-color: #34495e;
+	color: white;
+	font-size: 2em;
+	padding: 10px; 
+}
+
+.exercise p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding: 10px; 
+}
+
+.exercise .exercise-content {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding: 10px; 
+}
+
+.exercise-action {
+	/*margin-top: 10px;*/
+	padding: 10px;
+	border-top: solid 1px #dfe6e9;
+}
+
+.exercise-action button {
+	padding: 10px 20px;
+	background-color: #0097e6;
+	border: none;
+	color: white;
+
+	/*Border radius*/
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.exercise-action button:hover {
+	background-color: #00a8ff;
+}
+
+.exercise-action button:focus {
+	outline: none;
+}
+
+#bai2 input {
+	/*width: 50%;*/
+	width: calc(100% - 105px);
+	height: 26px;
+	padding-left: 5px;
+	border:none;
+
+	/*Border radius*/
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+#bai2 input:focus {
+	outline: none;
+}
+
+#bai2 button {
+	height: 26px;
+	width: 100px;
+	padding: 5px 10px;
+	margin-left: -5px;
+	background-color: #0097e6;
+	color: white;
+	border: none;
+
+	/*Border radius*/
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+#bai2 button:hover {
+	background-color: #00a8ff;
+}
+
+#bai2 button:focus {
+	outline: none;
+}
+
+#bai2-result {
+	word-wrap: break-word;
+}
+
+.showMe {
+	display: block;
+}
+
+.hideMe {
+	display: none;
+}
+
+
+
+/*BAI3*/
+#bai3_img {
+	/*max-width: 100%;*/
+	width: 200px;
+}
+
+
+
+
+/*Bai4*/
+
+#bai4_button {
+	/*height: 26px;*/
+	/*width: 100px;*/
+	padding: 5px 10px;
+	margin-left: -5px;
+	/*background-color: #0097e6;*/
+	color: white;
+	border: none;
+
+	/*Border radius*/
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.color1 {
+	/*đỏ*/
+	background-color: #c23616;
+}
+
+.color2 {
+	/*xanh*/
+	background-color: #0097e6;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript basic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <script type="text/javascript" src="script.js"></script> -->
+</head>
+<body>
+
+<div id="content">
+	<div class="container">
+		<div class="exercise">
+			<h1><u>Bài 1</u>: Làm 2 nút trái, phải, bấm vào nút nào thì đoạn văn căn bên đó</h1>
+			<p id="bai1">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</p>
+			<div class="exercise-action">
+				<button type="button" onclick="bai1_left()">Left</button>
+				<button type="button" onclick="bai1_center()">Center</button>
+				<button type="button" onclick="bai1_right()">Right</button>
+			</div>
+		</div>
+
+
+
+		<div class="exercise">
+			<h1><u>Bài 2</u>: Làm 1 input, nhận số vào và button OK => tạo ra bấy nhiêu hình tròn</h1>
+			<div id="bai2" class="exercise-content">
+				<input type="number" id="bai2_numberOfCircle" placeholder="Nhập số hình tròn cần tạo" />
+				<button type="submit" onclick="bai2_createCircle()">Create now!</button>
+			</div>
+			<div id="bai2-result" class="exercise-action hideMe">
+				<!-- Result -->
+			</div>
+		</div>
+
+
+
+		<div class="exercise">
+			<h1><u>Bài 3</u>: Làm 2 button: function to và nhỏ 1 hình</h1>
+			<div class="exercise-content">
+				<img id="bai3_img" src="img/img-bai3.jpg">
+			</div>
+			<div class="exercise-action">
+				<button type="button" onclick="bai3_upsize()">▲</button>
+				<button type="button" onclick="bai3_downsize()">▼</button>
+			</div>
+		</div>
+
+
+
+		<div class="exercise">
+			<h1><u>Bài 4</u>: Một button, bấm vào thì màu đỏ, bấm nữa thì màu xanh <=> đỏ</h1>
+			<div class="exercise-content">
+				<button id="bai4_button" onclick="bai4_touchMe()" class="color2">Touch me, nigga!</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
